@@ -1,0 +1,87 @@
+/* pc */
+@media (min-width: 1024px) {
+    #header .mobile-menu {
+        display: none;
+    }
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .ticket-place .btn-ticket {
+        padding: 1.5rem 1.6rem;
+    }
+
+    .contact-section .contact-submit-btn {
+        padding: 1.6rem 1.6rem;
+    }
+
+    #footer .social-list a {
+        margin: 1rem;
+        font-size: 4.8rem;
+    }
+
+    #footer .copyright {
+        font-size: 4.8rem;
+        padding: 1.5rem;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* mobile */
+@media (max-width: 739px) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header #nav {
+        display: block;
+    }
+
+    #header #nav li {
+        display: block;
+
+    }
+
+    #header #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header .button-search {
+        display: none;
+    }
+
+    #header #nav .subnav {
+        position: initial;
+        background-color: #000000;
+    }
+
+    #header #nav .subnav>li>a {
+        color: #ffffff;
+    }
+
+    #header #nav .subnav>li {
+        padding-left: 1.5rem;
+    }
+
+    #header #nav li:hover .subnav {
+        display: block;
+    }
+
+    .team-list .img-team {
+        width: 60%;
+    }
+
+    .ticket-place .btn-ticket {
+        display: block;
+        width: 100%;
+    }
+
+}
